@@ -1,4 +1,4 @@
-package com.amazon.dataprepper.plugins;
+package org.opensearch.sample.dataprepper.hello;
 
 import com.amazon.dataprepper.model.annotations.DataPrepperPlugin;
 import com.amazon.dataprepper.model.event.Event;
