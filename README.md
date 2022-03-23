@@ -19,8 +19,7 @@ For example:
 ```
 
 ```
-cd example
-./run-sample.sh
+./example/run-sample.sh
 ```
 
 You should see event lines which look like:
