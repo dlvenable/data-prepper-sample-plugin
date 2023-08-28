@@ -7,10 +7,13 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven {
+        url 'https://aws.oss.sonatype.org/content/repositories/releases/'
+    }
 }
 
 dependencies {
-    implementation 'org.opensearch.dataprepper:data-prepper-api:2.3.0'
+    implementation 'org.opensearch.dataprepper:data-prepper-api:2.4.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
