@@ -3,7 +3,7 @@ say-hello-pipeline:
   delay: "2000"
   source:
     random:
-  prepper:
+  processor:
     - hello:
   sink:
     - stdout:

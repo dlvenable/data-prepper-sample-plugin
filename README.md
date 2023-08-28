@@ -9,7 +9,7 @@ Set the directory for your Data Prepper jar:
 For example:
 
 ```
- export DATA_PREPPER_JAR=/Users/myuser/Documents/data-prepper/data-prepper-core/build/libs/data-prepper-core-1.3.0-SNAPSHOT.jar
+ export DATA_PREPPER_JAR=/Users/myuser/Documents/data-prepper/release/archives/linux/build/distributions/opensearch-data-prepper-2.5.0-SNAPSHOT-linux-x64.tar.gz
 ```
 
 ## Build & Run
