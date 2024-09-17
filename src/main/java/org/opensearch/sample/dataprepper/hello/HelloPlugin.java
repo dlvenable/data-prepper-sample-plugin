@@ -17,7 +17,9 @@ public class HelloPlugin implements Processor<Record<Event>, Record<Event>> {
     @Override
     public Collection<Record<Event>> execute(final Collection<Record<Event>> collection) {
         collection
-                .forEach(eventRecord -> eventRecord.getData().put("hello", "world"));
+                .stream()
+                .map(Record::getData)
+                .forEach(event -> event.put("hello", "world"));
 
         return collection;
     }
